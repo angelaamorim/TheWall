@@ -1,0 +1,1 @@
+a:1:{i:0;a:6:{s:4:"nome";s:6:"Angela";s:9:"sobrenome";s:6:"Amorim";s:5:"email";s:0:"";s:5:"cargo";s:5:"infra";s:4:"area";s:15:"Desenvolvimento";s:9:"intervalo";s:13:"07:00 - 08:00";}}

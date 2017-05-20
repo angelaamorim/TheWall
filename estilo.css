@@ -1,0 +1,121 @@
+body {
+  font-family: arial 12px;
+  background-color: #E8E8E8;
+}
+h1{
+   font-family: Tahoma;
+   color: #CD3333; 
+   display: inline-block;
+}
+h2{
+    font-family: arial 12px;
+    color:#9C9C9C;
+}
+.login{
+   padding-top: 0px;
+}
+.botao{
+    margin-top: 10px;
+    border-radius:8px;
+    border:2px solid #dcdcdc;
+}
+h3{
+    font-family: arial;
+    padding-right: 100px;
+}
+.senha{
+    font-family: arial;
+    padding-right: 115px;
+}
+.corpo{
+    background-color: white;
+    margin: 80px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 50px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-shadow: 5px 5px 5px #888888
+}
+.cabecalho{
+    background-color: #363636;
+    padding: 10px;
+}
+
+.tituloLogin{
+     font-size: 25px;
+     font-weight: bold;
+     font-family: arial;
+     color:#9C9C9C;
+     padding-left: 0px;
+     padding-bottom: 10px; 
+}
+.subtitulo{
+    font-family: Tahoma;
+    display:inline-block;
+    color: #9C9C9C;
+}
+.cadastroSimples{
+    font-family: arial;
+    text-align:  left;
+    margin-left: 180px;
+}
+.usuarioLogado{
+    font-family: arial;
+    display: inline-block;
+    margin-left: 600px; 
+    color: white;
+}
+.dashboard{
+    background-color: white;
+    margin-top: 10px;
+    padding: 50px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 0px;
+    box-shadow: 5px 5px 5px #888888;
+    text-align: center;
+}
+
+.menu{
+    background-color: #9C9C9C;
+    padding: 20px;
+    box-shadow: 5px 5px 5px #888888;
+    font-family: arial;
+    color: white;
+}
+.centro{
+    padding-left: 100px;
+}
+
+.ok{
+    color: darkgreen;
+    font-family: arial;
+}
+.itemMenu{
+    font-family: arial;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #CD3333; 
+}
+table{
+    border-collapse: collapse;
+    font-family: arial;
+}
+thead{
+    background-color:#9C9C9C;
+    color: white;
+}
+td{
+    padding: 10px;
+}
+.relatorioTabela{
+    margin-right: 100px;
+}
