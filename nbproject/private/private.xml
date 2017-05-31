@@ -3,20 +3,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/thewall/sair.php</file>
-            <file>file:/C:/xampp/htdocs/thewall/cadastroArea.php</file>
-            <file>file:/C:/xampp/htdocs/thewall/cadastrarUsuarioSimples.html</file>
-            <file>file:/C:/xampp/htdocs/thewall/processaCadastroUsuario.php</file>
-            <file>file:/C:/xampp/htdocs/thewall/processaCadastroArea.php</file>
-            <file>file:/C:/xampp/htdocs/thewall/processaCadastroHorario.php</file>
-            <file>file:/C:/xampp/htdocs/thewall/biblioteca.php</file>
-            <file>file:/C:/xampp/htdocs/thewall/cadastroUsuario.php</file>
-            <file>file:/C:/xampp/htdocs/thewall/processaLogin.php</file>
-            <file>file:/C:/xampp/htdocs/thewall/estilo.css</file>
-            <file>file:/C:/xampp/htdocs/thewall/cadastroHorario.php</file>
-            <file>file:/C:/xampp/htdocs/thewall/processaCadastroUsuarioSimples.php</file>
-            <file>file:/C:/xampp/htdocs/thewall/home.php</file>
-            <file>file:/C:/xampp/htdocs/thewall/relatorios.php</file>
+            <file>file:/C:/xampp/htdocs/TheWall/home.php</file>
+            <file>file:/C:/xampp/htdocs/TheWall/processaAlteraWhitelist.php</file>
+            <file>file:/C:/xampp/htdocs/TheWall/processaCadastroArea.php</file>
+            <file>file:/C:/xampp/htdocs/TheWall/processaAlteraBlacklist.php</file>
+            <file>file:/C:/xampp/htdocs/TheWall/cabecalho.php</file>
+            <file>file:/C:/xampp/htdocs/TheWall/relatorios.php</file>
+            <file>file:/C:/xampp/htdocs/TheWall/estilo.css</file>
+            <file>file:/C:/xampp/htdocs/TheWall/alteraWhitelist.php</file>
+            <file>file:/C:/xampp/htdocs/TheWall/listaWhitelist.php</file>
+            <file>file:/C:/xampp/htdocs/TheWall/alteraBlacklist.php</file>
+            <file>file:/C:/xampp/htdocs/TheWall/biblioteca.php</file>
+            <file>file:/C:/xampp/htdocs/TheWall/listaBlacklist.php</file>
         </group>
     </open-files>
 </project-private>

@@ -13,8 +13,9 @@
             else{
                 $email = '';
             }
-            $novoUsuario = criarUsuario($nome, $sobrenome, $email, $cargo, $area, $intervalo);
+            $novoUsuario = criarUsuario(rand(1,999),$nome, $sobrenome, $email, $cargo, $area, $intervalo);
             salvar($novoUsuario, USUARIO);
+            var_dump($novoUsuario);
             echo "<h3 class='ok'>Cadastro efetuado com sucesso...</h3>";
             include_once 'cadastroUsuario.php';
         }

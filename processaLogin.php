@@ -11,15 +11,20 @@ and open the template in the editor.
     </head>
     <body>
         <?php
+            require_once './biblioteca.php';
             if($_POST){
-                $usuario = $_POST['usuario'];
-                $senha = $_POST['senha'];
-                if($usuario == "admin" && $senha == "admin"){
-                    @session_start();
-                    $_SESSION['usuario'] = $usuario;
-                    echo "<h3 class='ok'>Login efetuado com sucesso...</h3>";
-                    include_once 'home.php';
-                    
+                if(isset($_POST['usuario']) && isset($_POST['senha'])){
+                    $login = $_POST['usuario'];
+                    $senha = $_POST['senha'];
+                    $usuarios = ler(USUARIOSIMPLES);
+                    foreach($usuarios as $usuario){
+                        if ($usuario['nome'] == $login && $usuario['senha'] == $senha){
+                            @session_start();
+                            $_SESSION['usuario'] = $login;
+                            echo "<h3 class='ok'>Login efetuado com sucesso...</h3>";
+                            include_once 'home.php';
+                        }
+                    }
                 }
             }   
             else{

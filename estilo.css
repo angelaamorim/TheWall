@@ -102,6 +102,7 @@ h3{
 a{
     text-decoration: none;
 }
+
 a:hover{
     color: #CD3333; 
 }
@@ -118,4 +119,26 @@ td{
 }
 .relatorioTabela{
     margin-right: 100px;
+}
+.divItem{
+    font-family: arial;
+    font-size: 20px;
+    background-color: #D3D3D3;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #888888;
+    display: inline-block;
+    margin: 20px;
+}
+.linkSubMenu{
+    color: #CD3333;
+    font-size: 15px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+textarea{
+    width: 300px; 
+    height: 300px;
+    font-family: arial;
+    font-size: 15px;
 }
