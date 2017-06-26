@@ -31,7 +31,6 @@
                         <p>
                             <a href="relatorios.php" class="linkSubMenu">Visualizar</a>
                             <a href="relatoriosFiltro.php" class="linkSubMenu">Filtrar</a>
-                            <a href="manutencao.php" class="linkSubMenu">Exportar</a>
                         </p>
                     </div>
                     <div class="divItem">
@@ -39,7 +38,6 @@
                         <p>
                             <a href="listaWhitelist.php" class="linkSubMenu">Visualizar</a>
                             <a href="alteraWhitelist.php" class="linkSubMenu">Alterar</a>
-                            <a href="manutencao.php" class="linkSubMenu">Exportar</a>
                         </p>
                     </div>  
                     <div class="divItem">
@@ -47,7 +45,6 @@
                         <p>
                             <a href="listaBlacklist.php" class="linkSubMenu">Visualizar</a>
                             <a href="alteraBlacklist.php" class="linkSubMenu">Alterar</a>
-                            <a href="manutencao.php" class="linkSubMenu">Exportar</a>
                         </p>
                     </div>
                 </div>

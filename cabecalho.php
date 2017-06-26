@@ -24,8 +24,8 @@
         <center>
             <div class="menu">
                 <img height="25px"src="icons/home.png" ><a href="home.php" class="itemMenu"> Home </a> |
-                <img height="25px"src="icons/user.png" ><a href="cadastroUsuario.php" class="itemMenu"> Cadastro de Usuário </a> |
-                <img height="25px"src="icons/company.png" ><a href="cadastroArea.php" class="itemMenu">Cadastro de Área </a> |
-                <img height="25px"src="icons/clock.png" ><a href="cadastroHorario.php" class="itemMenu">Cadastro de Horários </a> |
+                <img height="25px"src="icons/user.png" ><a href="usuario.php" class="itemMenu"> Usuário </a> |
+                <img height="25px"src="icons/company.png" ><a href="area.php" class="itemMenu"> Área </a> |
+                <img height="25px"src="icons/clock.png" ><a href="horario.php" class="itemMenu"> Horários </a> |
                 <img height="25px"src="icons/relatorio.png"><a href="relatorios.php" class="itemMenu">Relatórios</a>
             </div>

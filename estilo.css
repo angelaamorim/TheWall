@@ -19,6 +19,12 @@ h2{
     border-radius:8px;
     border:2px solid #dcdcdc;
 }
+.botaoSalvar{
+    margin-top: 10px;
+    border-radius:8px;
+    background-color: #00CD66;
+    border:2px solid #00CD66;
+}
 h3{
     font-family: arial;
     padding-right: 100px;

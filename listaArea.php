@@ -4,8 +4,8 @@
 ?>
 <div class="dashboard">
                 <div class="cadastroSimples">
-                    <div class="centro">
-                        <p class="tituloLogin" style="padding-left: 100px"><img height="40px" src="icons/userRed.png"> Visualizar Usuários Cadastrados</p>
+                    <div class="centro" style="margin-left: 100px">
+                        <p class="tituloLogin" ><img height="40px" src="icons/userRed.png"> Visualizar Áreas Cadastradas</p>
                         <?php 
                             $areas = ler(AREA);
                             if(count($areas) > 0){
@@ -33,7 +33,12 @@
                         <?php
                             }
                         ?>
-                                
+                        <br>
+                        <form>
+                           <input type="submit" formaction="home.php"  class="botao" value="Voltar">
+                           <input type="submit" formaction="cadastroArea.php"  class="botao" value="Cadastrar Nova">
+                           <input type="submit" formaction="manutencao.php"  class="botao" value="Alterar">
+                        </form>
                 </div>
             </div>
           </div>

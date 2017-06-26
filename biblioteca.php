@@ -5,6 +5,7 @@
     define("USUARIOSIMPLES", "./bd/usuariosimples.txt");
     define("WHITELIST", "./bd/whitelist.txt");
     define("BLACKLIST", "./bd/blacklist.txt");
+    define("ACCESSLOG", "./bd/accesslogteste.txt");
     
     function salvar($registro,$arquivo){
         $registros = ler($arquivo);
@@ -40,6 +41,21 @@
             echo "<tr>";
             echo "<td>  $site</td>";
             echo "</tr>";
+        }
+        
+    }
+    
+    function lerAccessLog($arquivo){
+        $file = fopen(ACCESSLOG, "r");
+        while(!feof($file)){
+            $log = fgets($file);
+            $acesso = explode(";", $log);
+            foreach($acesso as $ac){
+                $ac = explode (" ", $ac);
+                echo "<tr>";
+                echo "<td>  $ac[0]</td>";
+                echo "</tr>";
+            }
         }
         
     }
@@ -82,9 +98,6 @@
         );
     }
 
-    function Ordenar($a, $b) {
-        return $a['email'] > $b['email'];
-    }
     function criarArea($nome, $supervisor, $email){
         return array(
             'nome' => $nome,

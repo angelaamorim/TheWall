@@ -19,6 +19,7 @@
                         </table>
                         <form>
                             <input type="submit" formaction="home.php"  class="botao" value="Voltar">
+                            <input type="submit" formaction="alteraWhitelist.php"  class="botao" value="Alterar">
                         </form>
                     </center>
                 </div>
