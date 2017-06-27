@@ -42,7 +42,6 @@
                         <form>
                            <input type="submit" formaction="home.php"  class="botao" value="Voltar">
                            <input type="submit" formaction="cadastroUsuario.php"  class="botao" value="Cadastrar Novo">
-                           <input type="submit" formaction="manutencao.php"  class="botao" value="Alterar">
                         </form>
                 </div>
             </div>

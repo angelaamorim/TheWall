@@ -7,7 +7,6 @@
                         <p>
                             <a href="listaUsuario.php" class="linkSubMenu">Cadastrados</a>
                             <a href="cadastroUsuario.php" class="linkSubMenu">Cadastrar</a>
-                            <a href="alteraUsuario.php" class="linkSubMenu">Alterar</a>
                         </p>
                     </div>
                     <div class="divItem">
@@ -15,7 +14,6 @@
                         <p>
                             <a href="listaArea.php" class="linkSubMenu">Cadastradas</a>
                             <a href="cadastroArea.php" class="linkSubMenu">Cadastrar</a>
-                            <a href="alteraArea.php" class="linkSubMenu">Alterar</a>
                         </p>
                     </div>
                     <div class="divItem">
@@ -23,7 +21,6 @@
                         <p>
                             <a href="listaHorario.php" class="linkSubMenu">Cadastrados</a>
                             <a href="cadastroArea.php" class="linkSubMenu">Cadastrar</a>
-                            <a href="alteraArea.php" class="linkSubMenu">Alterar</a>
                         </p>
                     </div>
                     <div class="divItem">

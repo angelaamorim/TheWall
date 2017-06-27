@@ -34,8 +34,7 @@
                         <br>
                         <form>
                            <input type="submit" formaction="home.php"  class="botao" value="Voltar" style="margin-left: 250px">
-                           <input type="submit" formaction="cadastroUsuario.php"  class="botao" value="Cadastrar Novo" >
-                           <input type="submit" formaction="manutencao.php"  class="botao" value="Alterar">
+                           <input type="submit" formaction="cadastroHorario.php"  class="botao" value="Cadastrar Novo" >
                         </form>          
                 </div>
             </div>

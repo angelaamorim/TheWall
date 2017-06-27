@@ -17,7 +17,6 @@
                             E-mail:
                             <input type="text" name="email" placeholder="E-mail">
                   
-                            Foto: <input type="file" name="foto">
                         </p>
                         <p>
                             Cargo*:
@@ -33,7 +32,7 @@
                         </p>
                         <p>
                             Horários de Intervalo:
-                            <input type="submit" formaction="cadastrarHorario.php"  class="botao" value="Novo horário">
+                            <input type="submit" formaction="cadastroHorario.php"  class="botao" value="Novo horário">
                         </p>
                         <p>
                             <input type="checkbox" name="intervalo" value="07:00 - 08:00">07:00 - 08:00<br>

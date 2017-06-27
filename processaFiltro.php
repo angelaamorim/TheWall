@@ -7,6 +7,9 @@
                 <div class="relatorioTabela">
                     <center>
                         <p class="tituloLogin"><img height="40px" src="icons/relatorioRed.png"> Relatórios</p>
+                        <form action="processaFiltro.php" method="post">
+                            <h3 style="color:black;font-family: arial;font-size: 16px">Filtrar por data: <input type="date" name="data"> <input type="submit" class="botao" value="Filtrar"></h3>
+                        </form>
                         <table border="1px">
                             <thead>
                                 <th>Host</th>
@@ -16,12 +19,13 @@
                                 <th>Data</th>
                             </thead>
                             <tbody>
-                                    <?php lerAccessLog(ACCESSLOG); ?>
+                                    <?php 
+                                            lerAccessLogFiltro(ACCESSLOG,$_POST['data']); 
+                                    ?>
                             </tbody>
-                        </table><br>
+                        </table>
                         <form>
                             <input type="submit" formaction="home.php"  class="botao" value="Voltar">
-                            <input type="submit" formaction="relatoriosFiltro.php"  class="botao" value="Filtrar">
                         </form>
                     </center>
                 </div>

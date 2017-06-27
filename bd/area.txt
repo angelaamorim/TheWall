@@ -1,1 +1,1 @@
-a:2:{i:0;a:3:{s:4:"nome";s:10:"financeiro";s:10:"supervisor";N;s:5:"email";s:0:"";}i:1;a:3:{s:4:"nome";s:10:"financeiro";s:10:"supervisor";s:5:"seila";s:5:"email";s:0:"";}}
+a:1:{i:0;a:3:{s:4:"nome";s:5:"Infra";s:10:"supervisor";s:6:"Angela";s:5:"email";s:19:"angelinha@email.com";}}

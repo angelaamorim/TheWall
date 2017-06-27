@@ -7,7 +7,21 @@
                 <div class="relatorioTabela">
                     <center>
                         <p class="tituloLogin"><img height="40px" src="icons/relatorioRed.png"> Relatórios</p>
-                        <?php lerAccessLog(ACCESSLOG); ?>
+                        <form action="processaFiltro.php" method="post">
+                            <h3 style="color:black;font-family: arial;font-size: 16px">Filtrar por data: <input type="date" name="data"> <input type="submit" class="botao" value="Filtrar"></h3>
+                        </form>
+                        <table border="1px">
+                            <thead>
+                                <th>Host</th>
+                                <th>Status</th>
+                                <th>Método</th>
+                                <th>Site</th>
+                                <th>Data</th>
+                            </thead>
+                            <tbody>
+                                    <?php lerAccessLog(ACCESSLOG); ?>
+                            </tbody>
+                        </table>
                         <form>
                             <input type="submit" formaction="home.php"  class="botao" value="Voltar">
                         </form>
